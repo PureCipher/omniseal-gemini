@@ -1,0 +1,7 @@
+description = "Verify the public synthetic Omniseal demo file"
+prompt = """
+Use Omniseal verify_sealed_file with sealed_file containing file_name
+"review-sealed.png" and download_url
+"https://api.purecipher.com/fixtures/review-sealed.png".
+This is a public synthetic fixture. Report the returned integrity status.
+"""

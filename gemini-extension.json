@@ -1,0 +1,13 @@
+{
+  "name": "omniseal",
+  "version": "1.0.0",
+  "description": "Seal, retrieve, verify, and remove hidden files with PureCipher Omniseal.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "omniseal": {
+      "httpUrl": "https://api.purecipher.com/mcp?platform=claude",
+      "timeout": 120000,
+      "includeTools": ["seal_files", "retrieve_secret_file", "verify_sealed_file", "remove_hidden_file"]
+    }
+  }
+}
